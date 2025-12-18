@@ -1,0 +1,1 @@
+# bib_recognition_multicamera
