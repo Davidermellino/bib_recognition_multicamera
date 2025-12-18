@@ -20,8 +20,11 @@ After benchmarking the OCR I started to work with some videos. All the work is i
 The videos I worked on are shows a part of a trail run in Gran Canaria. 
 For this project 4 cameras has been used, one on each vertex of a recangle
 
-![example_image.png](example_image.png)
-![example_image2.png](analyze_video_data/example_image2.png)
+<p align="center">
+  <img src="images/example_image.png" width="400">
+  <img src="images/example_image2.png" width="600">
+</p>
+
 
 For each camera i extract information for each frame about the runners present in the video,
 in this way i don't need to work with the video anymore. To do so, have a look at the *analyze_video_runner.ipynb* notebook
