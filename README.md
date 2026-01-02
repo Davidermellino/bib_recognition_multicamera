@@ -16,25 +16,29 @@ If you want to edit the parameters you can do it in one of the first cell of eac
 
 ### Full number prediction
 
-| Method      | Precision (P) | Recall (R) | F1-score |
-| ----------- | ------------- | ---------- | -------- |
-| EasyOCR     | 0.68          | 0.64       | 0.66     |
-| Tesseract   | 0.44          | 0.02       | 0.05     |
-| YOLO        | 0.67          | 0.99       | 0.80     |
-| **SAIL-VL** | **0.94**      | **0.99**   | **0.97** |
-| DotsOCR     | 0.90          | 0.86       | 0.88     |
-| Monkey-OCR  | 0.90          | 0.98       | 0.94     |
+| Method       | Precision (P) | Recall (R) | F1-score |
+| ------------ | ------------- | ---------- | -------- |
+| EasyOCR      | 0.68          | 0.64       | 0.66     |
+| Tesseract    | 0.44          | 0.02       | 0.05     |
+| YOLO         | 0.67          | 0.99       | 0.80     |
+| **SAIL-VL**  | **0.94**      | **0.99**   | **0.97** |
+| DotsOCR      | 0.90          | 0.86       | 0.88     |
+| Monkey-OCR   | 0.90          | 0.98       | 0.94     |
+| **Idefics2** | 0.89          | **0.99**   | 0.94     |
+
 
 ### Single digit prediction
 
-| Method      | Precision (P) | Recall (R) | F1-score |
-| ----------- | ------------- | ---------- | -------- |
-| EasyOCR     | 0.81          | 0.86       | 0.84     |
-| Tesseract   | 0.68          | 0.16       | 0.26     |
-| YOLO        | 0.82          | 0.91       | 0.86     |
-| **SAIL-VL** | **0.97**      | **0.99**   | **0.98** |
-| DotsOCR     | 0.95          | 0.96       | 0.95     |
-| Monkey-OCR  | 0.95          | 0.98       | 0.97     |
+| Method       | Precision (P) | Recall (R) | F1-score |
+| ------------ | ------------- | ---------- | -------- |
+| EasyOCR      | 0.81          | 0.86       | 0.84     |
+| Tesseract    | 0.68          | 0.16       | 0.26     |
+| YOLO         | 0.82          | 0.91       | 0.86     |
+| **SAIL-VL**  | **0.97**      | **0.99**   | **0.98** |
+| DotsOCR      | 0.95          | 0.96       | 0.95     |
+| Monkey-OCR   | 0.95          | 0.98       | 0.97     |
+| **Idefics2** | 0.95          | 0.97       | 0.96     |
+
 
 SAIL-VL consistently outperforms all baselines, achieving the highest F1-scores in both bib and digit recognition tasks.
 
