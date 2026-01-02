@@ -4,7 +4,7 @@ Davide Ermellino - Università degli studi di Cagliari
 This is a little guide to use all the functionality of my work here in Las Palmas
 about the recognition of bib number on multicamera view.
 
-The work is divided in two part benchmarked of existing OCR models on RBNR dataset and prediciton of bib number of runners with multipleview videos
+The work is divided in two part: benchmark of existing OCR models on RBNR dataset and prediciton of bib number of runners with multipleview videos
 
 ## BENCHMARK 📊 
 
@@ -12,6 +12,31 @@ At first I benchmarked some OCR to the RBNR dataset, if you want to
 reproduce the results you can go to the folder *benchmark*, there you will find one notebook for each
 OCR tested, they are wrote to be executed without any additional effort, just execute the cells ( also the dataset is downloaded there). 
 If you want to edit the parameters you can do it in one of the first cell of each notebook.
+
+
+### Full number prediction
+
+| Method      | Precision (P) | Recall (R) | F1-score |
+| ----------- | ------------- | ---------- | -------- |
+| EasyOCR     | 0.68          | 0.64       | 0.66     |
+| Tesseract   | 0.44          | 0.02       | 0.05     |
+| YOLO        | 0.67          | 0.99       | 0.80     |
+| **SAIL-VL** | **0.94**      | **0.99**   | **0.97** |
+| DotsOCR     | 0.90          | 0.86       | 0.88     |
+| Monkey-OCR  | 0.90          | 0.98       | 0.94     |
+
+### Single digit prediction
+
+| Method      | Precision (P) | Recall (R) | F1-score |
+| ----------- | ------------- | ---------- | -------- |
+| EasyOCR     | 0.81          | 0.86       | 0.84     |
+| Tesseract   | 0.68          | 0.16       | 0.26     |
+| YOLO        | 0.82          | 0.91       | 0.86     |
+| **SAIL-VL** | **0.97**      | **0.99**   | **0.98** |
+| DotsOCR     | 0.95          | 0.96       | 0.95     |
+| Monkey-OCR  | 0.95          | 0.98       | 0.97     |
+
+SAIL-VL consistently outperforms all baselines, achieving the highest F1-scores in both bib and digit recognition tasks.
 
 ## BIB PREDICTION 
 
