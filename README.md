@@ -50,7 +50,7 @@ The videos I worked on are shows a part of a trail run in Gran Canaria.
 For this project 4 cameras has been used, one on each vertex of a recangle
 
 <p align="center">
-  <img src="images/example_image.png" width="400">
+  <img src="images/example_image.png" width="300">
   <img src="images/example_image2.png" width="600">
 </p>
 
